@@ -1,133 +1,114 @@
-@font-face{
-	font-family: "Futura Md BT Medium";
-	src:url('font/Futura Md BT Medium.TTF');
-}
-body{
-	margin:0;
-	font-family:"Futura Md BT Medium";
-	background-image: url(image/background/549935.jpg);
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web Toko Roti</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+	<body>
+	<!-- code untuk header  -->
+		<header>
+			<div class="container">
+				<div class="header-left">
+					<img src="image/toko roti2.png" class="logo">
+				</div>
+				<div class="header-center">
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">STORY</a></li>
+						<li><a href="">PRODUCT</a></li>
+						<li><a href="">PROMO</a></li>
+						<li><a href="">CONTACT</a></li>
+					</ul>
+				</div>
+				<div class="header-right">
+					<a href="">LOGIN</a>
+				</div>
+								
+			</div>
+		</header>
+		<!-- code untuk top  -->
+		<div class="top-wrapper">
+			<div class="container">
+				<img src="image/background/toko roti background.png" class="iklan">
+				
+					<h1>SELAMAT DATANG</h1>
+					<h1>DI</h1>
+					<h1>TOKO ROTI</h1>
+					<p>Toko Roti ini Berdiri pada 2020 dini hari dan baru memulai debut pada launch kamis depan</p>
+					<p>Roti dengan banyak varian rasa dengan hadirnya cake dan cookies membuat  
+					Toko Roti semoga menambah antusias costumers saat mengunjungi Toko Roti kami</p>
+				<div class="line"></div>
+			</div>
+		</div>
+		<!-- code untuk lessons  -->
+		<div class="lessons-wrapper">
+			<div class="container">
+		        <div class="heading">
+		          <h2>> PILIHAN PRODUK <</h2>
+		        </div>
 
-a{
-	text-decoration:none; 
-}
+		        <div class="lessons">
+		          <div class="lesson">
+		            <div class="lesson-icon">
+		              <img src="image/food1.jpg">
+		            </div>
+		            <p class="txt-contents">Brownis </p>
+		         </div>
 
-.container{
-	width: 1170px;
-	padding: 0 15px;
-	margin: 0 auto;
-}
+		          <div class="lesson">
+		            <div class="lesson-icon">
+		              <img src="image/food2.jpg">
+		            </div>
+		            <p class="txt-contents">Dessert</p>
+		          </div>
 
-.top-wrapper{
-	padding: 50px 0px 100px 0px;
-	opacity: 0.8;
-	color: mintcream;
-	text-align: center;
-}
+		          <div class="lesson">
+		            <div class="lesson-icon">
+		              <img src="image/food3.jpg">
+		            </div>
+		            <p class="txt-contents">Cokies</p>
+		         </div>
 
-/* tambahan css untuk top wrapper pada tag <h1> */
-.top-wrapper h1{
-	opacity: 0.8;
-	font-size: 30px;
-	letter-spacing: 5px;
-	margin-bottom: 10px;
-	line-height: 1.6;
-}
+		        </div>
+		      </div>
+		</div>
+		<!-- code untuk massage  -->	
+		<div class="massage-wrapper">
+			<div class="container">
+				<div class="heading">
+				  <h2>Hubungi Kami!</h2>
+				  <h3>Roti lezat harga merakyat</h3>
+				</div>
+				<button class="button">Contact Us</button>
+			</div>
+		</div>
+		<!-- code untuk footer  -->
+		<footer>
+			<div class="container">
+				<img src="image/toko roti2.png" class="ikon-roti">
+				<p>Toko Roti selalu Dihati</p>
+			</div>
+			<!--down-section-------------->
+        <div class="down-section">
+            <!--l------------->
+            <ul>
+              <h1>Contact Us</h1>
+              <li><p>+62 821-3347-9663</p></li>
+              <li><p>Semarang City</p></li>
+              <li><p>Central Java</p></li>
+            </ul>
 
-/* tambahan css untuk top-wrapper pada tag <p>	*/
-.top-wrapper p{
-	opacity: 0.9;
-	margin-right: 20%;
-	margin-left: 20%;
-	margin-bottom: 3px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-/*tambahan css untuk twitter*/
-
-/* tambahan untuk button btn wrapper */
-.btn-wrapper{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-/* tambahan untuk button btn wrapper untuk tag p */
-.btn-wrapper p{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-/*CSS dalam Header */
-/* menambahkan vss untuk tag header*/
-header{
-	height: 65px;
-	width: 100%;
-	background-color: rgb(160, 82, 45);
-}
-/*tambahan gambar untuk logo */
-.logo{
-	width: 124px;
-	padding:20px 40px 20px 40px;
-	margin-left: 0px;
-	float: left;
-}
-
-li{
-	list-style: none;
-	float: left;
-	padding:25px 35px 25px 35px;
-}
-
-.header-right{
-	float: right;
-	background-color: rgba(255, 255, 255, 0.3);
-}
-
-.header-right:hover{
-	background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right a{
-	line-height: 65px;
-	padding: 0px 25px;
-	color :white;
-	display: block;
-	transition: all 0.5s;
-}
-
-
-/*CSS dalam top*/
-.iklan{
-	width: 80%;
-}
-.line{
-	margin-top: 20px;
-	border-bottom: 5px solid #fff; 
-}
-
-.header-center{
-	background-color: rgba(255, 255, 255, 0.3);
-}
-
-.header-center:hover{
-	background-color: rgba(255, 255, 255, 0.5);
-}
-.header-center a{
-	padding: 0px 15px;
-	color :white;
-	display: block;
-	transition: all 0.9s;
-}
-
-footer{
-	padding-top: 20px;
-	float: left;
-	margin-left: 10%;
-}
-footer img{
-  width: 10%;
-}
-footer p{
-	color: white;
-}
+            <!--2------------->
+            <ul>
+                <!--heading-->
+                <h1>About</h1>
+                <li><a href="#">Team & Company</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Services</a></li>
+            </ul>
+        </div>
+		</footer>
+	</body>
+</html>
